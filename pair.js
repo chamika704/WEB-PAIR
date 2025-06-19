@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*MATTA - XMD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*Bot Owner/+94741341749*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/EjbA1XUbhCI0zYBf9n55YD*`;
+            const sid = `*MATTA - XMD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*> Bot Owner Chamika/+94741341749*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/EjbA1XUbhCI0zYBf9n55YD*`;
             const mg = `🛑 *DONT SHARE YOUR SESSION ID* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
