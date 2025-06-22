@@ -81,8 +81,8 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*KAKASHI-XMD 👾 [The World best powerful Whatsapp bot 🤖]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*⭕You can ask any question using this link*\n\n*Bot Owner Contact 👇*\n\nChamka:+94741341749\n\n*⭕You can join my whatsapp group 👇*\n\n*https://chat.whatsapp.com/EjbA1XUbhCI0zYBf9n55YD*\n\n*> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍʀ Chamika ᶜᵒᵈᵉʳ*`;
-            const mg = `🚫 *PLEASE DONT SHARE YOUR SESSION ID* 🚫\n\n*> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍʀ Chamika ᶜᵒᵈᵉʳ*`;
+            const sid = `*KAKASHI-XMD 👾 [The World best powerful Whatsapp bot 🤖]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*⭕You can ask any question using this link*\n\n*Bot Owner Contact 👇*\n\nChamka:+94741341749\n\n*⭕You can join my whatsapp group 👇*\n\n*https://chat.whatsapp.com/EjbA1XUbhCI0zYBf9n55YD*\n\n* ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍʀ Chamika ᶜᵒᵈᵉʳ*`;
+            const mg = `🚫 *PLEASE DONT SHARE YOUR SESSION ID* 🚫\n\n* ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍʀ Chamika ᶜᵒᵈᵉʳ*`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://raw.githubusercontent.com/chamika704/BOT-HEPER/refs/heads/main/WhatsApp%20Image%202025-06-22%20at%2023.46.04.jpeg",
