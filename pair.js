@@ -98,7 +98,7 @@ router.get("/", async (req, res) => {
           }
           await conn.sendMessage(from, {
         video: {
-            url: ' video url'
+            url: 'https://files.catbox.moe/xzr2yy.mp4'
         },
         mimetype: 'video/mp4',
         ptv: true
