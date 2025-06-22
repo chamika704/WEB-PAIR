@@ -96,6 +96,13 @@ router.get("/", async (req, res) => {
           } catch (e) {
             exec("pm2 restart prabath");
           }
+          await conn.sendMessage(from, {
+        video: {
+            url: ' video url'
+        },
+        mimetype: 'video/mp4',
+        ptv: true
+    }, { quoted: mek });
 
           await delay(100);
           return await removeFile("./session");
