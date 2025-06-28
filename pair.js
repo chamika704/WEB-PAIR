@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🚫 *PLEASE DONT SHARE YOUR SESSION ID* 🚫\n\n> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍʀ Chamika ᶜᵒᵈᵉʳ`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/chamika704/BOT-HEPER/refs/heads/main/WhatsApp%20Image%202025-06-22%20at%2023.46.04.jpeg",
+                url: "https://raw.githubusercontent.com/chamika704/BOT-HEPER/refs/heads/main/WhatsApp%20Image%202025-06-28%20at%207.40.55%20AM.jpeg",
               },
               caption: sid,
             });
